@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RadioGroup
+
+        android:id="@+id/radioGroupId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+
+        <RadioButton
+            android:buttonTint="#FF5722"
+            android:id="@+id/javaRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Java"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+
+        <RadioButton
+            android:buttonTint="#8B4FF4"
+            android:id="@+id/KotlineRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Kotline"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+
+        <RadioButton
+            android:buttonTint="#03A9F4"
+            android:id="@+id/dartRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Dart"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Button"
+        android:background="#FFFFFF"
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No selected item"
+        android:layout_margin="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        />
+
+</LinearLayout>

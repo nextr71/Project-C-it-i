@@ -1,0 +1,2 @@
+rootProject.name='Animated Background'
+include ':app'

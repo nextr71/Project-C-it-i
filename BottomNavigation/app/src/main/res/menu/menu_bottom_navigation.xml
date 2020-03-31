@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeId"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/widgetsId"
+        android:icon="@drawable/ic_widgets_black_24dp"
+        android:title="Widgets"
+        />
+    <item
+        android:id="@+id/switchId"
+        android:icon="@drawable/ic_switch"
+        android:title="Switch"
+        />
+</menu>

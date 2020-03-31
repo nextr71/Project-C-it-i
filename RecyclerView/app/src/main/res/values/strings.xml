@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+
+    <string-array name="name">
+
+        <item>Account Box</item>
+        <item>Add Alert</item>
+        <item>Airline seat</item>
+        <item>Airplane mode</item>
+        <item>Alarm</item>
+        <item>Album</item>
+        <item>Announcement</item>
+        <item>Archive</item>
+        <item>Assessment</item>
+        <item>Assignment late</item>
+        <item>Assignment turned</item>
+        <item>Assistant</item>
+        <item>AV timer</item>
+        <item>Backup</item>
+
+    </string-array>
+
+</resources>

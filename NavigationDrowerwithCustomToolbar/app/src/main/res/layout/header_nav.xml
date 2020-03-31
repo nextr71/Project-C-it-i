@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:background="@drawable/header_layout"
+    >
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/remon"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="Remon Ahammad"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:text="nextr71@gmail.com"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Navigation Drower with Custom Toolbar'
+include ':app'

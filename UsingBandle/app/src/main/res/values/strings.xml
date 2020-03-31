@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Using Bandle</string>
+
+    <string name="afghanstanTxt">Afghanstan Activity</string>
+    <string name="bangladeshTxt">Bangladesh Activity</string>
+    <string name="pakistanTxt">Pakistan Activity</string>
+</resources>
